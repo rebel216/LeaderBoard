@@ -34,7 +34,7 @@ GUI of Weboage is based on wireframe :
 - Clone this repo with:
 
   ```bash
-  git clone https://github.com/tacettinkustu/microverse-leaderboard.git
+  git clone https://github.com/rebelim216/leaderboard.git
   ```
 
 - Navigate to the folder/directory
@@ -52,8 +52,8 @@ GUI of Weboage is based on wireframe :
 
 👤 **Neeraj Bhardwaj**
 
-- GitHub: [@tacettinkustu](https://github.com/rebel216)
-- LinkedIn: [tacettinkustu](https://www.linkedin.com/in/neeraj-bhardwaj-06491522a/)
+- GitHub: [@rebel216](https://github.com/rebel216)
+- LinkedIn: [rebel216](https://www.linkedin.com/in/neeraj-bhardwaj-06491522a/)
 
 ## Show your support
 
