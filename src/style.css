@@ -1,0 +1,118 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 60%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  padding: 0 1.5rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  width: 50%;
+  padding: 0 1.5rem;
+}
+
+.left-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+  background-color: #555;
+  height: 2rem;
+  border: none;
+  color: white;
+  padding: 0 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.score-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 2px solid #555;
+  border-radius: 5px;
+}
+
+.item {
+  height: 2rem;
+  padding: 0 1rem;
+  padding-top: 0.6rem;
+  font-weight: 500;
+}
+
+.item:nth-of-type(even) {
+  background: rgba(209, 202, 202, 0.63);
+}
+
+.right-section {
+  width: 50%;
+  padding: 0 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 0.25rem 0.5rem;
+}
+
+input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #555;
+  padding: 5px;
+}
+
+#submit-btn {
+  font-family: 'Roboto', sans-serif;
+  align-self: flex-end;
+  background-color: #555;
+  height: 2rem;
+  border: none;
+  color: white;
+  padding: 0 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #555;
+  color: white;
+  text-align: center;
+}

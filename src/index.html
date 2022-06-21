@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leaderboard Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    </head>
+
+    <body>
+        <h1>Leaderboard</h1>
+        <main>
+            <section class="left-section">
+                <header class="left-header">
+                    <h2 class="left-heading">Recent Scores</h2>
+                    <button class="button" type="submit">Refresh</button>
+                </header>
+                <ul class="score-list">
+                    <li class="item">Name : 100</li>
+                    <li class="item">Name : 20</li>
+                    <li class="item">Name : 35</li>
+                    <li class="item">Name : 60</li>
+                    <li class="item">Name : 89</li>
+                    <li class="item">Name : 74</li>
+                    <li class="item">Name : 48</li>
+                </ul>
+            </section>
+            <section class="right-section">
+                <h2 class="right-heading">Add Your Score</h2>
+                <form action="/action_page.php">
+                    <input type="text" id="name" name="name" placeholder="Your Name" /><br />
+                    <input type="number" id="score" name="score" placeholder="Your Score" /><br />
+                    <input type="submit" id="submit-btn" value="Submit" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <p class="copyright">&copy; All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
