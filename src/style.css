@@ -35,7 +35,7 @@ main {
   justify-content: space-between;
 }
 
-.button {
+.refresh {
   font-family: 'Roboto', sans-serif;
   align-self: center;
   background-color: #555;
@@ -93,7 +93,7 @@ input::placeholder {
   padding: 5px;
 }
 
-#submit-btn {
+.submit-btn {
   font-family: 'Roboto', sans-serif;
   align-self: flex-end;
   background-color: #555;
