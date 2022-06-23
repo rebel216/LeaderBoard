@@ -23,7 +23,7 @@ GUI of Weboage is based on wireframe :
 
 ## Live Demo
 
-[Live Demo Link][https://rebel216.github.io/LeaderBoard/dist/]
+[Live Demo Link](https://rebel216.github.io/LeaderBoard/dist)
 
 ## Prerequisites
 
