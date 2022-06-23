@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leaderboard Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script defer src="main.js"></script></head>
+
+    <body>
+        <h1>Leaderboard</h1>
+        <main>
+            <section class="left-section">
+                <header class="left-header">
+                    <h2 class="left-heading">Recent Scores</h2>
+                    <button class="refresh">Refresh</button>
+                </header>
+                <ul class="score-list"></ul>
+            </section>
+            <section class="right-section">
+                <h2 class="right-heading">Add Your Score</h2>
+                <form action="#">
+                    <input type="text" class="name" name="name" placeholder="Your Name" /><br />
+                    <input type="number" class="score" name="score" placeholder="Your Score" /><br />
+                    <input type="submit" class="submit-btn" value="Submit" />
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <p class="copyright">&copy; All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
