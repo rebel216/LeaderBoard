@@ -40,7 +40,7 @@ GUI of Weboage is based on wireframe :
 - Navigate to the folder/directory
 
   ```bash
-  cd microverse-leaderboard
+  cd leaderboard
   ```
 
 - On the commandline, at the project's root, run `npm install` to install app dependencies
