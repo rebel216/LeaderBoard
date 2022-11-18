@@ -9,7 +9,7 @@
 - API
 
 ## Live demo:
-[Live demo]((https://rebel216.github.io/LeaderBoard/dist)
+[Live demo](https://rebel216.github.io/LeaderBoard/dist)
 
 ## Getting Started:
 To access and change the code on your computer (using GIT):
